@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="polinema.ac.id.dtschapter9praktikum2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.ProfileActivity"></activity>
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.HomeActivity" />
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.RegisterActivity" />
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.SuccessActivity" />
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.ResetPasswordActivity" />
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.ForgotPasswordActivity" />
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.WelcomeBackActivity" />
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.WelcomeSlideAssignActivity" />
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.WelcomeSlideSuperheroActivity" />
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.WelcomeSlideCalendarActivity" />
+        <activity android:name="polinema.ac.id.dtschapter9praktikum2.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
